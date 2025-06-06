@@ -10,6 +10,7 @@ RUN chown -R node:node /ecs-app
 
 ENV NODE_ENV=production
 ENV ENV_ECS=true
+ENV PORT=80
 USER root
 EXPOSE 80
 
